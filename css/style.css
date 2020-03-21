@@ -1,0 +1,90 @@
+*{
+  overflow-x: hidden;
+}
+/*--- navigation--- */
+.navbar{
+    opacity: .8; background-color: white !important;
+    box-shadow: 2px 2px 5px #3292a6
+}
+.nav-item{
+  font-size: 1.3rem ; padding-right: 20px; font-weight: bold
+}
+
+/*---- Header ----*/
+header{
+  background-image:linear-gradient(rgba(50,146,166,.7),rgba(104, 223, 247, 0.7)), url(../images/mountains.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* why this book */
+.under-line::after{
+  display: block;
+  content: "";
+  width: 30rem;
+  height: .1rem;
+  background-color: #ccc;
+  margin: 2rem auto;
+}
+.card-header{
+  padding: 0;
+}
+.btn-link:link ,.btn-link:hover, .btn-link:visited ,.btn-link:active{ 
+  text-decoration: none;
+}
+.card-img-top{
+  width: 45%;
+  margin-bottom: 1rem;
+}
+.mlogo{
+  width: 65%;
+}
+
+
+
+@media (max-width: 992px) {
+  .authers-info .card-title{
+    font-size: 1.2rem ;
+  }
+  .authers-info .card-subtitle{
+    font-size: 1rem;
+  }
+  .authers-info .card .card-body{
+    padding: 0 !important;
+  }
+  .authers-info .card-text{
+    font-size: .8rem;
+  }
+  .authers-info .fab{
+    font-size: 1rem;
+  }
+}
+@media (max-width: 767px) {
+  .card-img-top {
+      max-width: 30%;
+      text-align: center;
+      margin: 1rem;
+  }
+  #about .container .row .col-md-3{
+    margin-bottom: 1rem;
+  }
+  .authers-info .card{
+    margin-bottom: 1rem;
+  }
+  .authers-info .card .card-body{
+    text-align: center;
+  }
+  .authers-info .card .card-body .fab{
+    font-size: 1.5rem;
+  }
+  #contact .col-md-4{
+    text-align: center;
+  }
+}
+@media (max-width: 554px) {
+  .subscripe-btn{
+    font-size: 0;
+  }
+  
+}
